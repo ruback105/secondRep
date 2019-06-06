@@ -15,10 +15,10 @@ public class driver {
 		if(exit == 0) {
 			System.setProperty("webdriver.gecko.driver", "C:\\Users\\apusko.la\\Desktop\\testing\\geckodriver.exe");
 			driver = new FirefoxDriver();
-		} /*else if(exit == 1) {
+		} else if(exit == 1) {
 			System.setProperty("webdriver.ie.driver","C:\\Users\\apusko.la\\Desktop\\testing\\IEDriverServer.exe");
 			driver = new InternetExplorerDriver();
-		}*/ else if (exit == 1) {
+		} else if (exit == 1) {
 			System.setProperty("webdriver.chrome.driver", "C:\\Users\\apusko.la\\Desktop\\testing\\chromedriver.exe");
 			driver = new ChromeDriver();
 		}
