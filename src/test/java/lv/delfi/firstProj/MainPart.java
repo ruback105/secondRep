@@ -11,6 +11,7 @@ public class MainPart extends driver{
 	public static String temp;
 	
 	public void openTasty() {
+		System.out.print("hello");
 		driver.get("https://www.delfi.lv");
 		try {
 			driver.findElement(By.id("cookiePolicyAccept")).click();
