@@ -16,8 +16,7 @@ public class driver {
 			System.setProperty("webdriver.gecko.driver", "C:\\Users\\apusko.la\\Desktop\\testing\\geckodriver.exe");
 			driver = new FirefoxDriver();
 		} /*else if(exit == 1) {
-			System.setProperty("webdriver.ie.driver","C:\\Users\\apusko.la\\Desktop\\testing\\IEDriverServer.exe");
-			driver = new InternetExplorerDriver();
+			System.setProperty("webdriver.ie.driver","C:\\Users\\apusko.la\\Desktop\\testing\\IEDriverServer.exe");trywethwtjhrwtw rwy
 		}*/ else if (exit == 1) {
 			System.setProperty("webdriver.chrome.driver", "C:\\Users\\apusko.la\\Desktop\\testing\\chromedriver.exe");
 			driver = new ChromeDriver();
